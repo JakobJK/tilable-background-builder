@@ -1,0 +1,24 @@
+body {
+    padding: 100px 200px;
+    background-color: rgb(218, 208, 195);
+}
+.wrap {
+    display: flex;
+    justify-content: center;
+}
+.outer {
+    position: relative;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.imageMover {
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    border: 1px solid red;
+}
+
+.drawCanvas {
+    position: absolute;   
+}
